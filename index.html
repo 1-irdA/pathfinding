@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Maze pathfinding</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <h1>Maze generator and pathfinding</h1>
+
+        <div>
+            <select id="pathfindingSelect">
+                <option>Pathfinding algorithm</option>
+                <option value="astar">A*</option>
+                <option value="bfs">BFS</option>
+                <option value="dfs">DFS</option>
+            </select>
+        </div>
+
+        <div>
+            <script src="p5/p5.min.js"></script>
+            <script src="js/maze.js"></script>
+            <script src="js/cell.js"></script>
+            <script src="js/generator.js"></script>
+            <script src="js/astar.js"></script>
+            <script src="js/bfs.js"></script>
+            <script src="js/dfs.js"></script>
+        </div>
+    </body>
+</html>

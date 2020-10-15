@@ -1,0 +1,21 @@
+body {
+    background-color:black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(255, 204, 0);
+}
+
+#pathfindingSelect {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    padding: 0.2em;
+}
+
+#reload {
+    margin-bottom: 1em;
+    padding: 0.2em;
+    font-size: 1.3em;
+}
